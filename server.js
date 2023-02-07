@@ -19,8 +19,8 @@ app.set('views', 'views');
 
 app.use(express.urlencoded({extended: false}));
 app.use('/',homeRoutes);
-app.use('/userFound',userFoundRoutes);
-app.use('/userNotFound',userNotFoundRouters);
+app.use('/userFound/*',userFoundRoutes);
+app.use('/userNotFound/*',userNotFoundRouters);
 
 const PORT = process.env.PORT || 3000;
 
