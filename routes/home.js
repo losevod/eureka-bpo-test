@@ -12,9 +12,9 @@ router.get('/', (req, res) => {
 router.post('/', (req, res) => {
     let formData = req.body.visitor;
     if (os.userInfo().username === formData) {
-        res.redirect('/userFound')
+        res.redirect(`/userFound/${formData}`)
     } else {
-        res.redirect('/userNotFound');
+        res.redirect(`/userNotFound/${formData}`);
     }
     res.redirect('/userFound');
 })
