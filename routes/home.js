@@ -1,8 +1,10 @@
 const {Router} = require('express');
 const router = Router();
 const os = require('os'); 
+const EurekaBpoTest = require("../lib/binding.js");
 
 router.get('/', (req, res) => {
+    EurekaBpoTest();
     res.render('index',{
         title: 'Проверить пользователя',
     });

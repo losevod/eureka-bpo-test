@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "eureka-bpo-test-native", "eureka-bpo-test-native.vcxproj", "{55C0DD89-466A-7189-8E55-67963237120A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DCB15CA4-CB2E-F3C5-CD47-8912974A5430} = {DCB15CA4-CB2E-F3C5-CD47-8912974A5430}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nothing", "..\node_modules\node-addon-api\src\nothing.vcxproj", "{DCB15CA4-CB2E-F3C5-CD47-8912974A5430}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(WEB)", "..\WEB", "{9EDC80A0-7987-5375-6F1E-33C41EBE13AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(eureka-bpo-test)", "..\WEB\eureka-bpo-test", "{89EA2AC7-82F2-FC51-ABBE-D6F02D37EB15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node_modules)", "..\WEB\eureka-bpo-test\node_modules", "{B88AE803-F718-BE6F-5D81-6D0DFA8AE705}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node-addon-api)", "..\WEB\eureka-bpo-test\node_modules\node-addon-api", "{20DA3F25-5874-94CC-7AF7-748F7300BFA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(src)", "..\WEB\eureka-bpo-test\node_modules\node-addon-api\src", "{3532F2EE-D535-2178-F67B-370D5E927511}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55C0DD89-466A-7189-8E55-67963237120A}.Debug|x64.ActiveCfg = Debug|x64
+		{55C0DD89-466A-7189-8E55-67963237120A}.Debug|x64.Build.0 = Debug|x64
+		{55C0DD89-466A-7189-8E55-67963237120A}.Release|x64.ActiveCfg = Release|x64
+		{55C0DD89-466A-7189-8E55-67963237120A}.Release|x64.Build.0 = Release|x64
+		{DCB15CA4-CB2E-F3C5-CD47-8912974A5430}.Debug|x64.ActiveCfg = Debug|x64
+		{DCB15CA4-CB2E-F3C5-CD47-8912974A5430}.Debug|x64.Build.0 = Debug|x64
+		{DCB15CA4-CB2E-F3C5-CD47-8912974A5430}.Release|x64.ActiveCfg = Release|x64
+		{DCB15CA4-CB2E-F3C5-CD47-8912974A5430}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89EA2AC7-82F2-FC51-ABBE-D6F02D37EB15} = {9EDC80A0-7987-5375-6F1E-33C41EBE13AB}
+		{B88AE803-F718-BE6F-5D81-6D0DFA8AE705} = {89EA2AC7-82F2-FC51-ABBE-D6F02D37EB15}
+		{20DA3F25-5874-94CC-7AF7-748F7300BFA8} = {B88AE803-F718-BE6F-5D81-6D0DFA8AE705}
+		{3532F2EE-D535-2178-F67B-370D5E927511} = {20DA3F25-5874-94CC-7AF7-748F7300BFA8}
+		{DCB15CA4-CB2E-F3C5-CD47-8912974A5430} = {3532F2EE-D535-2178-F67B-370D5E927511}
+	EndGlobalSection
+EndGlobal
